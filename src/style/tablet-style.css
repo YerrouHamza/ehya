@@ -1,0 +1,451 @@
+                        /* styling for tablit */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* styling for header */
+header .main-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .main-navbar__nav-mobile {
+    display: inline-block;
+    background-color: transparent !important;
+    position: unset !important;
+}
+
+header .main-navbar__nav-web {
+    display: none;
+}
+
+/* styling for header container */
+.Header-section__container {
+    flex-direction: column;
+}
+.Header-section__container .content-box {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+    /* content */
+.Header-section__container .content-box .title {
+    width: 400px;
+    margin: auto;
+    font-size: 48px;
+}
+.Header-section__container .content-box .text {
+    width: 500px;
+    margin: auto;
+}
+.Header-section__container .content-box .text p {
+    font-size: 16px;
+}
+
+.Header-section__container .image-box {
+    text-align: center;
+}
+.Header-section__container .image-box {
+    width: 623px;
+    margin: auto;
+}
+.Header-section__container .image-box img {
+    width: 100%;
+}
+
+    /* brands */
+.Header-section__brands {
+    max-width: 750px;
+    width: 750px;
+    margin-top: 5rem;
+}
+.Header-section__brands .image-box {
+    margin: 0;
+    width: 90px;
+    height: 53px;
+}
+
+    /* dots */
+.Header-section__dot-image {
+    margin-top: 5rem;
+}
+
+
+/* styling for Collaboration section */
+.Collaboration-section {
+    margin-top: 5rem;
+}
+
+.Collaboration-section__container {
+    flex-direction: column;
+}
+
+.Collaboration-section__container .content-box {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.Collaboration-section__container .content-box div {
+    width: 443px;
+}
+
+    /* content */
+
+.Collaboration-section__container .content-box button {
+    height: 49px;
+    width: 176px;
+    font-size: 14px;
+}
+
+    /* image */
+.Collaboration-section__container .image-box {
+    margin-top: 4rem;
+    width: 700px;
+}
+.Collaboration-section__container .image-box img {
+    width: 100%;
+}
+
+
+
+/* styling for Sub-benefit section */
+.Sub-benefit-section {
+    margin-top: 3rem;
+    width: 100% !important;
+}
+
+.Sub-benefit-section__card {
+    width: 217px;
+    height: 236px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    padding: 1rem;
+}
+
+.Sub-benefit-section__card-content .card-title {
+    font-size: 16px;
+}
+
+.Sub-benefit-section__card-content .card-text {
+    width: 154px;
+    font-size: 14px;
+}
+
+/* styling for section 4 */
+.section-4-card {
+    margin-top: 5rem;
+    width: 100% !important;
+    flex-wrap: wrap;
+
+}
+
+.section-4-card .card-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 0px !important;
+}
+
+.section-4-card .card-box:last-child {
+    flex-direction: row-reverse;
+    margin-top: 5rem;
+}
+
+.section-4-card .card-box:first-child div:first-child {
+    margin-right: 5rem;
+}
+    /* card image */
+.section-4-card .card-box .card-box__image {
+    border-radius: 10px !important;
+    width: 280px;
+    height: 331px;
+}
+.section-4-card .card-box .card-box__image img{
+    width: 280px;
+}
+
+    /* card content */
+.section-4-card .card-box .card-box__content {
+    margin: 0;
+}
+.section-4-card .card-box .card-box__content .card-text {
+    width: 295px;
+}
+
+
+/* styling for testimonal section */
+.testimonal-section {
+    height: 500px;
+    align-items: flex-start !important;
+    max-width: 100% !important;
+    margin-top: 5rem;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 0 !important;
+}
+
+.testimonal-section__slider-container {
+    height: 352px;
+    border-radius: 0;
+}
+
+.testimonal-section__slider-container .slider-main-content {
+    width: 90% !important;
+
+}
+    /* image box */
+.testimonal-section__slider-container .image-box img {
+    width: 183px !important;
+}
+    /* qoutes box */
+.testimonal-section__slider-container .quote-box {
+    margin: 0 !important;
+    margin-top: 2rem !important;
+    margin-right: 3rem !important;
+}
+.testimonal-section__slider-container .quote-box figcaption {
+    font-size: 20px;
+    margin-bottom: 0 !important;
+}
+.testimonal-section__slider-container .quote-box figcaption span {
+    font-size: 16px;
+}
+
+.testimonal-section__slider-container .quote-box blockquote {
+    margin-top: 2rem !important;
+}
+.testimonal-section__slider-container .quote-box blockquote p {
+    font-size: 22px;
+}
+
+    /* buttons */
+.testimonal-section__slider-buttons {
+    width: 130px !important;
+    bottom: -7%;
+    left: 39%;
+}
+.testimonal-section__slider-buttons button {
+    width: 57px;
+    height: 57px;
+}
+
+    /* indicators */
+.testimonal-section__slider-indicators {
+    right: 5% !important;
+}
+
+
+/* styling for Integrated section */
+.integrated-section {
+    max-width: 100% !important;
+}
+.integrated-section .content .title {
+    font-size: 32px;
+}
+
+    /* left logos */
+.item-l-1 {
+    left: 0%;
+}
+.item-l-2 {
+    left: -10%;
+    display: none;
+}
+.item-l-3 {
+    left: 5%;
+}
+.item-l-4 {
+    left: 20%;
+}
+.item-l-5 {
+    top: 40%;
+    left: 10%;
+}
+
+    /* right logos */
+.item-r-1 {
+    right: 18%;
+}
+.item-r-2 {
+    right: 13%;
+}
+.item-r-3 {
+    right: -10%;
+    display: none;
+}
+.item-r-4 {
+    right: 0%;
+}
+.item-r-5 {
+    width: 65px !important;
+    height: 65px !important;
+    right: 5%;
+    top: 20%;
+}
+.item-r-6 {
+    right: -10%;
+    display: none;
+}
+
+
+/* styling for pricing section */
+.pricing-section {
+    height: 765px;
+    padding-top: 0;
+}
+
+    /* container */
+        /* content */
+.pricing-section__container-content .content-box .title {
+    font-size: 32px;
+}
+.pricing-section__container-content .content-box .text p {
+    font-size: 16px;
+}
+
+        /* toggle button */
+.pricing-section__container-content .toggle-button__content p {
+    font-size: 16px;
+}
+.pricing-section__container-content .toggle-button__content .left-text::after {
+    font-size: 14px;
+}
+
+.pricing-section__container-content .toggle-button__content .button {
+    margin-left: 65px;
+    margin-right: 37px;
+}
+
+.pricing-section__container-content .toggle-button__content .button input {
+    width: 65px;
+    height: 37px;
+}
+
+    /* cards list */
+.pricing-section__container-card-list .card-content {
+    width: 699px;
+    height: 99px;
+    margin-top: 5px;
+    padding: 0 2rem !important;
+}
+
+.pricing-section__container-card-list .card-content .card-content_column .title{
+    font-size: 20px;
+}
+.pricing-section__container-card-list .card-content .card-content_column .text,
+.pricing-section__container-card-list .card-content .card-content_column .link {
+    font-size: 14px;
+}
+
+.pricing-section__container-card-list .card-content .card-content_column button {
+    width: 147px;
+    height: 41px;
+}
+
+
+/* styling for Benefit section */
+    /* content */
+.benefit-section__container .benefit-content .title {
+    font-size: 32px;
+}
+.benefit-section__container .benefit-content .text {
+    font-size: 16px;
+}
+
+    /* cards */
+.benefit-section__container .Card-content .card {
+    width: 237px !important;
+    height: 325px !important;
+}
+
+.benefit-section__container .Card-content .card-body {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.benefit-section__container .Card-content .card-body .title {
+    font-size: 22px;
+}
+.benefit-section__container .Card-content .card-body .text {
+    font-size: 14px;
+}
+.benefit-section__container .Card-content .card-button {
+    width: 152px;
+    height: 49px;
+    font-size: 16px;
+}
+.benefit-section__container .Card-content .card-button span {
+    display: none;
+} 
+.benefit-section__container .Card-content .card:nth-child(2) .card-body::after {
+    display: none;
+}
+
+
+
+
+/* styling for newsletter */
+.newsletter-section div {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center !important;
+}
+    /* content */
+.newsletter-section .newsletter-content {
+    margin-bottom: 2rem !important;
+}
+.newsletter-section .newsletter-content h2 {
+    font-size: 24px;
+}
+.newsletter-section .newsletter-content p {
+    font-size: 16px;
+}
+
+    /* form content */
+.newsletter-section .newsletter-form input {
+    width: 367px;
+}
+
+
+
+
+/* styling for footer */
+/* footer main  */
+.footer .footer-main {
+    width: 100%;
+}
+        /* left content */
+.footer .footer-main .left-content .logo {
+    width: 79px;
+}
+
+        /* right content */
+.footer .footer-main .right-content {
+    flex-wrap: wrap;
+}
+
+.footer .footer-main .right-content h3 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.footer .footer-main .right-content .column {
+    margin-left: 1rem !important;
+    margin-bottom: 3rem !important;
+}
+
+.footer .footer-main .right-content .column-list li {
+    padding-top: 1.5rem;
+}
+.footer .footer-main .right-content .column-list li a {
+    font-size: 16px;
+}
+
+    /* footer main  */
+.footer-copyright {
+    margin-top: 6rem;
+}

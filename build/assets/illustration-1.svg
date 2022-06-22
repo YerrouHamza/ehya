@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="672" height="434.5" viewBox="0 0 672 434.5">
+  <defs>
+    <filter id="Shadow" x="0" y="207.5" width="672" height="227" filterUnits="userSpaceOnUse">
+      <feOffset dy="26" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+    </filter>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-609 -978.5)">
+    <g transform="matrix(1, 0, 0, 1, 609, 978.5)" filter="url(#Shadow)">
+      <rect id="Shadow-2" data-name="Shadow" width="552" height="107" transform="translate(60 241.5)" fill="#fff" opacity="0.5"/>
+    </g>
+    <g id="Graph" transform="translate(644 979)">
+      <rect id="Shape" width="602" height="338" rx="12" fill="#f7f8f9" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="1"/>
+      <g id="Item_Copy_2" data-name="Item Copy 2" transform="translate(312 68)">
+        <rect id="Shape-2" data-name="Shape" width="130" height="236" transform="translate(0 15)" fill="#fff"/>
+        <rect id="Shape-3" data-name="Shape" width="112" height="84" rx="4" transform="translate(9 24)" fill="#00b8d9" opacity="0.1"/>
+        <rect id="Shape-4" data-name="Shape" width="112" height="84" rx="4" transform="translate(9 118)" fill="#36b37e" opacity="0.1"/>
+        <rect id="Shape-5" data-name="Shape" width="112" height="24" rx="4" transform="translate(9 212)" fill="#1565d8" opacity="0.1"/>
+        <text id="Artboard_3" data-name="Artboard 3" transform="translate(0 7)" fill="#696969" font-size="8" font-family="HKGrotesk-Medium, HK Grotesk" font-weight="500"><tspan x="0" y="0">Artboard 3</tspan></text>
+      </g>
+      <path id="Shape-6" data-name="Shape" d="M0,0H168a12,12,0,0,1,12,12V326a12,12,0,0,1-12,12H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(422)" fill="#fff"/>
+      <rect id="Shape-7" data-name="Shape" width="65" height="7" rx="2" transform="translate(489 65)" fill="#5a7184" opacity="0.1"/>
+      <rect id="Shape-8" data-name="Shape" width="65" height="7" rx="2" transform="translate(489 84)" fill="#5a7184" opacity="0.1"/>
+      <path id="Shape-9" data-name="Shape" d="M12,0H590a12,12,0,0,1,12,12V40a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12A12,12,0,0,1,12,0Z" fill="#183b56"/>
+      <g id="Item" transform="translate(19 9)">
+        <path id="Path" d="M0,0H22V22H0Z" fill="none"/>
+        <path id="Path-2" data-name="Path" d="M0,0H22V22H0Z" fill="none"/>
+        <path id="Combined_Shape" data-name="Combined Shape" d="M.66,13.64a.66.66,0,0,1,0-1.32H14.74a.66.66,0,0,1,0,1.32Zm0-6.16a.66.66,0,0,1,0-1.32H14.74a.66.66,0,0,1,0,1.32Zm0-6.16A.66.66,0,0,1,.66,0H14.74a.66.66,0,0,1,0,1.32Z" transform="translate(3.52 3.52)" fill="#fff"/>
+      </g>
+      <g id="Item-2" data-name="Item" transform="translate(55 6)">
+        <rect id="Shape-10" data-name="Shape" width="28" height="28" rx="4" fill="#00b8d9"/>
+        <g id="iconspace_Cursor_25px" transform="translate(4 4)">
+          <path id="Path-3" data-name="Path" d="M0,0H20V20H0Z" fill="none"/>
+          <path id="Path-4" data-name="Path" d="M5.473,16a.4.4,0,0,1-.386-.294L3.728,10.775l-3.089,2.3a.4.4,0,0,1-.237.08A.41.41,0,0,1,.087,13a.39.39,0,0,1-.078-.332L2.608.318A.4.4,0,0,1,3,0a.393.393,0,0,1,.293.13l8.6,9.434a.4.4,0,0,1-.291.669.432.432,0,0,1-.054,0L7.7,9.742,9.058,14.66a.4.4,0,0,1-.284.493l-3.2.834A.4.4,0,0,1,5.473,16ZM3.958,9.7A.4.4,0,0,1,4.344,10l1.409,5.116,2.425-.632-1.407-5.1a.4.4,0,0,1,.385-.506.412.412,0,0,1,.052,0l3.364.427L3.23,1.246,1.01,11.8,3.72,9.784A.4.4,0,0,1,3.958,9.7Z" transform="translate(4 1.6)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Button" transform="translate(530 6)">
+        <rect id="Shape-11" data-name="Shape" width="48" height="28" rx="4" fill="#00b8d9"/>
+        <text id="Share" transform="translate(24 18)" fill="#fff" font-size="12" font-family="HKGrotesk-Bold, HK Grotesk" font-weight="700" letter-spacing="0.013em"><tspan x="-15.636" y="0">Share</tspan></text>
+      </g>
+      <g id="Item-3" data-name="Item" transform="translate(97 6)">
+        <rect id="Shape-12" data-name="Shape" width="28" height="28" rx="4" fill="#183b56"/>
+        <g id="iconspace_Transform_25px" transform="translate(4 4)">
+          <path id="Path-5" data-name="Path" d="M0,0H20V20H0Z" fill="none"/>
+          <path id="Combined_Shape-2" data-name="Combined Shape" d="M13.2,16.8a.4.4,0,0,1-.4-.4V15.2H4v1.2a.4.4,0,0,1-.4.4H.4a.4.4,0,0,1-.4-.4V13.2a.4.4,0,0,1,.4-.4H1.6V4H.4A.4.4,0,0,1,0,3.6V.4A.4.4,0,0,1,.4,0H3.6A.4.4,0,0,1,4,.4V1.6h8.8V.4a.4.4,0,0,1,.4-.4h3.2a.4.4,0,0,1,.4.4V3.6a.4.4,0,0,1-.4.4H15.2v8.8h1.2a.4.4,0,0,1,.4.4v3.2a.4.4,0,0,1-.4.4Zm.4-.8H16V13.6H13.6ZM.8,16H3.2V13.6H.8Zm12-1.6V13.2a.4.4,0,0,1,.4-.4h1.2V4H13.2a.4.4,0,0,1-.4-.4V2.4H4V3.6a.4.4,0,0,1-.4.4H2.4v8.8H3.6a.4.4,0,0,1,.4.4v1.2ZM16,3.2V.8H13.6V1.962c0,.012,0,.025,0,.038s0,.025,0,.038V3.2H16ZM3.2,3.2V.8H.8V3.2H3.2Z" transform="translate(1.6 1.6)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Item-4" data-name="Item" transform="translate(139 6)">
+        <rect id="Shape-13" data-name="Shape" width="28" height="28" rx="4" fill="#183b56"/>
+        <g id="iconspace_Rectangle_25px" transform="translate(4 4)">
+          <path id="Path-6" data-name="Path" d="M0,0H20V20H0Z" fill="none"/>
+          <path id="Path-7" data-name="Path" d="M16.4,16.8H.4a.4.4,0,0,1-.4-.4V.4A.4.4,0,0,1,.4,0h16a.4.4,0,0,1,.4.4v16A.4.4,0,0,1,16.4,16.8ZM.8.8V16H16V.8Z" transform="translate(1.6 1.6)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Item-5" data-name="Item" transform="translate(181 6)">
+        <rect id="Shape-14" data-name="Shape" width="28" height="28" rx="4" fill="#183b56"/>
+        <g id="iconspace_Pen_25px" transform="translate(4 4)">
+          <path id="Path-8" data-name="Path" d="M0,0H20V20H0Z" fill="none"/>
+          <path id="Combined_Shape-3" data-name="Combined Shape" d="M.4,16a.4.4,0,0,1-.283-.117l-.024-.026A.4.4,0,0,1,0,15.564l.8-8.8a.4.4,0,0,1,.22-.321L8.963,2.471,11.318.117a.4.4,0,0,1,.565,0l4,4a.4.4,0,0,1,0,.565L13.529,7.037,9.558,14.979a.4.4,0,0,1-.321.22L.447,16,.4,16Zm4.283-4.118L1.465,15.1l7.477-.68,3.772-7.543L9.122,3.287,1.579,7.058.9,14.536l3.219-3.219A.393.393,0,0,1,4.4,11.2a2.009,2.009,0,0,1,.185-2.615A2,2,0,1,1,4.8,11.6.4.4,0,0,1,4.683,11.883Zm.469-2.731A1.2,1.2,0,1,0,6,8.8,1.2,1.2,0,0,0,5.152,9.151ZM9.766,2.8,13.2,6.234,15.035,4.4,11.6.966Z" transform="translate(2.4 2.4)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Item-6" data-name="Item" transform="translate(223 6)">
+        <rect id="Shape-15" data-name="Shape" width="28" height="28" rx="4" fill="#183b56"/>
+        <g id="iconspace_Type_25px" transform="translate(4 4)">
+          <path id="Path-9" data-name="Path" d="M0,0H20V20H0Z" fill="none"/>
+          <path id="Combined_Shape-4" data-name="Combined Shape" d="M2.8,16.8A2.8,2.8,0,0,1,0,14V2.8A2.8,2.8,0,0,1,2.8,0H14a2.8,2.8,0,0,1,2.8,2.8V14A2.8,2.8,0,0,1,14,16.8Zm-2-14V14a2,2,0,0,0,2,2H14a2,2,0,0,0,2-2V2.8a2,2,0,0,0-2-2H2.8A2,2,0,0,0,.8,2.8ZM8,12.4V4.8H4.4a.4.4,0,1,1,0-.8h8a.4.4,0,0,1,0,.8H8.8v7.6a.4.4,0,0,1-.8,0Z" transform="translate(1.6 1.6)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Item-7" data-name="Item" transform="translate(410 6)">
+        <rect id="Shape-16" data-name="Shape" width="28" height="28" rx="4" fill="#183b56"/>
+        <g id="iconspace_Message_25px" transform="translate(4 4)">
+          <path id="Path-10" data-name="Path" d="M0,0H20V20H0Z" fill="none"/>
+          <path id="Path-11" data-name="Path" d="M0,0H20V20H0Z" fill="none"/>
+          <path id="Path-12" data-name="Path" d="M16.4,16.8a.406.406,0,0,1-.089-.01l-4.091-.909A8.312,8.312,0,0,1,8.4,16.8a8.4,8.4,0,1,1,8.4-8.4,8.312,8.312,0,0,1-.919,3.823l.909,4.091a.4.4,0,0,1-.388.487ZM8.4.8a7.6,7.6,0,1,0,3.578,14.306.4.4,0,0,1,.189-.047.4.4,0,0,1,.086.009l3.62.8-.8-3.62a.4.4,0,0,1,.038-.275A7.6,7.6,0,0,0,8.4.8Z" transform="translate(1.6 1.6)" fill="#fff"/>
+        </g>
+        <g id="Oval" transform="translate(16 5)" fill="#01b681" stroke="#fff" stroke-miterlimit="10" stroke-width="1">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Image" transform="translate(452 7)">
+        <g id="Shape-17" data-name="Shape" fill="none" stroke="#ffaa0a" stroke-miterlimit="10" stroke-width="1">
+          <circle cx="13" cy="13" r="13" stroke="none"/>
+          <circle cx="13" cy="13" r="12.5" fill="none"/>
+        </g>
+        <circle id="Shape-18" data-name="Shape" cx="10" cy="10" r="10" transform="translate(3 3)" fill="#fc5a5a"/>
+      </g>
+      <g id="Image-2" data-name="Image" transform="translate(490 7)">
+        <g id="Shape-19" data-name="Shape" fill="none" stroke="#e01e5a" stroke-miterlimit="10" stroke-width="1">
+          <circle cx="13" cy="13" r="13" stroke="none"/>
+          <circle cx="13" cy="13" r="12.5" fill="none"/>
+        </g>
+        <circle id="Shape-20" data-name="Shape" cx="10" cy="10" r="10" transform="translate(3 3)" fill="#fc5a5a"/>
+      </g>
+      <g id="Item-8" data-name="Item" transform="translate(437 65)">
+        <g id="Rectangle" fill="#fff" stroke="#e4e4e4" stroke-miterlimit="10" stroke-width="1">
+          <rect width="40" height="40" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="39" height="39" rx="3.5" fill="none"/>
+        </g>
+        <g id="iconspace_Add_25px" transform="translate(8 8)">
+          <path id="Path-13" data-name="Path" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="Path-14" data-name="Path" d="M7.68,7.68V.48a.48.48,0,0,1,.96,0v7.2h7.2a.48.48,0,0,1,0,.96H8.64v7.2a.48.48,0,0,1-.96,0V8.64H.48a.48.48,0,0,1,0-.96Z" transform="translate(3.84 3.84)" fill="#2e2e2e"/>
+        </g>
+      </g>
+      <g id="Item-9" data-name="Item" transform="translate(437 135)">
+        <g id="Shape-21" data-name="Shape" fill="#fff" stroke="#e4e4e4" stroke-miterlimit="10" stroke-width="1">
+          <rect width="148" height="30" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="147" height="29" rx="3.5" fill="none"/>
+        </g>
+        <rect id="Shape_Copy_3" data-name="Shape Copy 3" width="148" height="30" rx="4" transform="translate(0 154)" fill="#183b56"/>
+        <text id="Export_to.." data-name="Export to.." transform="translate(74 173)" fill="#fff" font-size="12" font-family="HKGrotesk-Bold, HK Grotesk" font-weight="700" letter-spacing="0.013em"><tspan x="-29.592" y="0">Export to..</tspan></text>
+        <rect id="Shape-22" data-name="Shape" width="32" height="24" rx="4" transform="translate(0 36)" fill="#b3bac5" opacity="0.1"/>
+        <rect id="Shape-23" data-name="Shape" width="32" height="24" rx="4" transform="translate(39 36)" fill="#b3bac5" opacity="0.1"/>
+        <rect id="Shape-24" data-name="Shape" width="32" height="24" rx="4" transform="translate(78 36)" fill="#b3bac5" opacity="0.1"/>
+        <rect id="Shape-25" data-name="Shape" width="32" height="24" rx="4" transform="translate(117 36)" fill="#b3bac5" opacity="0.1"/>
+      </g>
+      <g id="Item-10" data-name="Item" transform="translate(437 228)">
+        <g id="Item-11" data-name="Item" transform="translate(128)">
+          <g id="iconspace_Add_25px_Copy" data-name="iconspace_Add_25px Copy" transform="translate(3 3)">
+            <path id="Path-15" data-name="Path" d="M0,0H16V16H0Z" fill="none"/>
+            <path id="Path-16" data-name="Path" d="M5.12,5.12V.32a.32.32,0,0,1,.64,0v4.8h4.8a.32.32,0,0,1,0,.64H5.76v4.8a.32.32,0,0,1-.64,0V5.76H.32a.32.32,0,0,1,0-.64Z" transform="translate(2.56 2.56)" fill="#2e2e2e"/>
+          </g>
+          <circle id="Oval_Copy_4" data-name="Oval Copy 4" cx="11" cy="11" r="11" fill="#5a7184" opacity="0.1"/>
+        </g>
+        <circle id="Shape-26" data-name="Shape" cx="11" cy="11" r="11" fill="#1565d8"/>
+        <circle id="Shape-27" data-name="Shape" cx="11" cy="11" r="11" transform="translate(32)" fill="#00b8d9"/>
+        <circle id="Shape-28" data-name="Shape" cx="11" cy="11" r="11" transform="translate(64)" fill="#e95432"/>
+        <circle id="Shape-29" data-name="Shape" cx="11" cy="11" r="11" transform="translate(96)" fill="#faad13"/>
+      </g>
+      <path id="Line" d="M0,.5H148" transform="translate(437 119.5)" fill="none" stroke="#e4e4e4" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Line-2" data-name="Line" d="M0,.5H148" transform="translate(437 209.5)" fill="none" stroke="#e4e4e4" stroke-miterlimit="10" stroke-width="1"/>
+      <g id="Item-12" data-name="Item" transform="translate(24 68)">
+        <rect id="Shape-30" data-name="Shape" width="130" height="226" transform="translate(0 15)" fill="#fff"/>
+        <text id="Name" transform="translate(9 39)" fill="#183b56" font-size="12" font-family="HKGrotesk-Bold, HK Grotesk" font-weight="700" letter-spacing="0.013em"><tspan x="0" y="0">Name</tspan></text>
+        <rect id="Shape-31" data-name="Shape" width="52" height="44" rx="4" transform="translate(9 53)" fill="#b3bac5" opacity="0.1"/>
+        <rect id="Shape-32" data-name="Shape" width="52" height="64" rx="4" transform="translate(69 53)" fill="#b3bac5" opacity="0.1"/>
+        <rect id="Shape-33" data-name="Shape" width="52" height="54" rx="4" transform="translate(9 105)" fill="#b3bac5" opacity="0.1"/>
+        <rect id="Shape-34" data-name="Shape" width="52" height="24" rx="4" transform="translate(9 167)" fill="#b3bac5" opacity="0.1"/>
+        <rect id="Shape-35" data-name="Shape" width="52" height="44" rx="4" transform="translate(69 125)" fill="#b3bac5" opacity="0.1"/>
+        <rect id="Shape_Copy_2" data-name="Shape Copy 2" width="52" height="44" rx="4" transform="translate(69 177)" fill="#fff" stroke="#979797" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="5 5" opacity="0.1"/>
+        <text id="Artboard_1" data-name="Artboard 1" transform="translate(0 7)" fill="#696969" font-size="8" font-family="HKGrotesk-Medium, HK Grotesk" font-weight="500"><tspan x="0" y="0">Artboard 1</tspan></text>
+      </g>
+      <g id="Item-13" data-name="Item" transform="translate(168 68)">
+        <rect id="Shape-36" data-name="Shape" width="130" height="166" transform="translate(0 15)" fill="#fff"/>
+        <rect id="Shape-37" data-name="Shape" width="112" height="84" rx="4" transform="translate(9 24)" fill="#faad13" opacity="0.1"/>
+        <rect id="Shape-38" data-name="Shape" width="95" height="7" rx="2" transform="translate(9 122)" fill="#5a7184" opacity="0.1"/>
+        <rect id="Shape-39" data-name="Shape" width="55" height="7" rx="2" transform="translate(9 152)" fill="#5a7184" opacity="0.1"/>
+        <rect id="Shape-40" data-name="Shape" width="105" height="7" rx="2" transform="translate(9 137)" fill="#5a7184" opacity="0.1"/>
+        <text id="Artboard_2" data-name="Artboard 2" transform="translate(0 7)" fill="#696969" font-size="8" font-family="HKGrotesk-Medium, HK Grotesk" font-weight="500"><tspan x="0" y="0">Artboard 2</tspan></text>
+      </g>
+      <g id="Group" transform="translate(123 260)">
+        <g id="iconspace_Cursor_25px-2" data-name="iconspace_Cursor_25px">
+          <path id="Path-17" data-name="Path" d="M0,0H23V23H0Z" fill="none"/>
+          <path id="Path-18" data-name="Path" d="M8.859,11.2,5.98,11.04,4.287,12.391.735,15.034a.46.46,0,0,1-.725-.464L3,.366A.46.46,0,0,1,3.789.15L13.681,11a.46.46,0,0,1-.4.766Z" transform="translate(4.6 3.68)" fill="#e95432"/>
+        </g>
+        <g id="Button-2" data-name="Button" transform="translate(3 25)">
+          <rect id="Shape-41" data-name="Shape" width="55" height="24" rx="4" fill="#e95432"/>
+          <text id="Bobby" transform="translate(27.5 16)" fill="#fff" font-size="12" font-family="HKGrotesk-Bold, HK Grotesk" font-weight="700" letter-spacing="0.013em"><tspan x="-17.148" y="0">Bobby</tspan></text>
+        </g>
+      </g>
+      <g id="Item-14" data-name="Item" transform="translate(331 159)">
+        <g id="iconspace_Cursor_25px-3" data-name="iconspace_Cursor_25px">
+          <path id="Path-19" data-name="Path" d="M0,0H23V23H0Z" fill="none"/>
+          <path id="Path-20" data-name="Path" d="M8.859,11.2,5.98,11.04,4.287,12.391.735,15.034a.46.46,0,0,1-.725-.464L3,.366A.46.46,0,0,1,3.789.15L13.681,11a.46.46,0,0,1-.4.766Z" transform="translate(4.6 3.68)" fill="#faad13"/>
+        </g>
+        <g id="Button-3" data-name="Button" transform="translate(5 27)">
+          <rect id="Shape-42" data-name="Shape" width="56" height="24" rx="4" fill="#faad13"/>
+          <text id="Garcia" transform="translate(28.5 16)" fill="#fff" font-size="12" font-family="HKGrotesk-Bold, HK Grotesk" font-weight="700" letter-spacing="0.013em"><tspan x="-18.063" y="0">Garcia</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

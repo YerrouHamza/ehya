@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- style -->
+    <link rel="stylesheet" href="style/style.css">
+        <!-- get media query style => tablet -->
+        <link rel="stylesheet" href="style/tablet-style.css" media="screen and (max-width: 900px)">
+        <!-- get media query style => mobile -->
+        <link rel="stylesheet" href="style/mobile-style.css" media="screen and (max-width: 375px)">
+
+    <!-- bootsTrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <title>ehya</title>
+</head>
+<body>
+    <header class="bg-transparent container-sm">
+        <!-- normal navbar -->
+        <nav class="navbar navbar-expand-lg" style="height: 101px;">
+            <div class="main-navbar container-fluid">
+                <a class="main-navbar__logo" href="#">
+                    <img src="assets/logo.svg" alt="">
+                </a>
+                <div class="main-navbar__nav-web flex-b" id="navbarNavDropdown">
+                    <ul class="navbar navbar-nav">
+                        <li class="nav-item me-4 ">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown me-4 ">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Landing
+                            </a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Landing 1</a></li>
+                                <li><a class="dropdown-item" href="#">Landing 2</a></li>
+                                <li><a class="dropdown-item" href="#">Landing 3</a></li>
+                                <li><a class="dropdown-item" href="#">Landing 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown me-4 ">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Page 1</a></li>
+                                <li><a class="dropdown-item" href="#">Page 2</a></li>
+                                <li><a class="dropdown-item" href="#">Page 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item me-4 ">
+                            <a class="nav-link" href="#">Docs</a>
+                        </li>
+                        <li class="nav-item me-4 ">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                        <button type="button" class="navbar-content-button btn btn-outline-primary shadow-sm rounded-3" >Get it now</button>
+                    </ul>
+                </div>
+
+                <!-- mobile Navbar -->
+                <div class="main-navbar__nav-mobile navbar bg-light fixed-top">
+                    <div class="container-fluid">
+                        <button class="toggle-open-button navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="nav-mobile__container offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <a class="navbar-logo" href="#">
+                                    <img src="assets/logo.svg" alt="">
+                                </a>
+                                <button type="button" class="toggle-close-button btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item me-4 ">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Landing
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Landing 1</a></li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item" href="#">Landing 2</a></li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item" href="#">Landing 3</a></li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item" href="#">Landing 4</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Pages
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Page 1</a></li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item" href="#">Page 2</a></li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item" href="#">Page 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item me-4 ">
+                                        <a class="nav-link" href="#">Docs</a>
+                                    </li>
+                                    <li class="nav-item me-4 ">
+                                        <a class="nav-link" href="#">Help</a>
+                                    </li>
+                                    <button type="button" class="navbar-content-button btn btn-outline-primary shadow-sm rounded-3">Get it now</button>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>       
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- the header section -->
+    <section class="Header-section container-sm container top-7rem">
+        <div class="Header-section__container row ">
+            <div class="content-box col">
+                <div>
+                    <h2 class="title">A virtual office
+                    for remote teams</h2>
+                    <div class="mt-4 text">
+                        <p class="m-0 fw-light">Re-discover the flow of workingtogether in-person. see, take to, and collaborate with your team in one click.</p>
+                        <p class="mb-4 fw-light">Now, every teams can have a virtual office</p>
+                    </div>
+                    <div class="mt-5 buttons">
+                        <button type="button" class="btn btn-primary shadow-sm me-3 rounded-4 " >Get Started for Free</button>
+                        <button type="button" class="btn btn-light shadow-s rounded-4">See Pricing</button>
+                    </div>
+                </div>
+            </div>
+            <div class="image-box col">
+                <img src="assets/illustration-hero.png" alt="illustration-hero">
+            </div>
+        </div>
+        <div class="Header-section__brands container container-sm d-flex justify-content-between">
+            <div class="image-box">
+                <img src="assets/logo-slack.svg" alt="logo-slack">
+            </div>
+            <div class="image-box">
+                <img src="assets/logo-netflix.svg" alt="logo-netflix">
+            </div>
+            <div class="image-box">
+                <img src="assets/logo-google.svg" alt="logo-google">
+            </div>
+            <div class="image-box">
+                <img src="assets/logo-airbnb.svg" alt="logo-airbnb">
+            </div>
+            <div class="image-box">
+                <img src="assets/logo-uber.svg" alt="logo-uber">
+            </div>
+        </div>
+        <div class="Header-section__dot-image">
+            <img src="assets/dots.svg" alt="dots">
+        </div>
+    </section>
+
+    <!-- Collaboration section  *-->
+    <section class="Collaboration-section container-sm container">
+        <div class="Collaboration-section__container row">
+            <div class="content-box col mt-4">
+                <div>
+                    <h6 class="mb-4">COLLABORATION</h6>
+                    <h2 class="mb-4">Quick Collaboration</h2>
+                    <p class="mb-5 m-0 fw-light">See which work apps your team is working in, and join them with a click. Shared cursors = better than screen-sharing.</p>
+                    <button class="btn btn-primary shadow-sm rounded-3" >Learn More</button>
+                </div>
+            </div>
+            <div class="image-box col">
+                <img src="assets/illustration-1.svg" alt="illustration-1">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sub-benefit section *-->
+    <section class="Sub-benefit-section container-sm container d-flex justify-content-between">
+        <div class="card Sub-benefit-section__card border-0" >
+            <div class="Sub-benefit-section__card-content">
+                <div class="card-subtitle shadow-sm">
+                    <img class="b-flex" src="assets/icon-computer.svg" alt="icon-computer">
+                </div>
+                <h4 class="card-title">Bring your ideas to life</h4>
+                <p class="card-text">From pixel-perfect icons and scalable vector graphics, to full user flows and interactive prototype.</p>
+            </div>
+        </div>
+
+        <div class="card Sub-benefit-section__card border-0">
+            <div class="Sub-benefit-section__card-content">
+              <div class="card-subtitle shadow-sm">
+                    <img src="assets/icon-home.svg" alt="icon-home">
+                </div>
+              <h4 class="card-title">Build designs from home</h4>
+              <p class="card-text">From pixel-perfect icons and scalable vector graphics, to full user flows and interactive prototype.</p>
+            </div>
+        </div>
+
+        <div class="card Sub-benefit-section__card border-0">
+            <div class="Sub-benefit-section__card-content">
+              <div class="card-subtitle shadow-sm">
+                    <img src="assets/icon-message.svg" alt="icon-message">
+                </div>
+              <h4 class="card-title">Discussion intens live</h4>
+              <p class="card-text">From pixel-perfect icons and scalable vector graphics, to full user flows and interactive prototype.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-4 -->
+    <section class="section-4-card container-sm container d-flex justify-content-between">
+        <div class="card-box card border-0">
+            <div class="card-box__image card-img-top rounded-4">
+                <img src="assets/illustration-2.svg" alt="illustration-2">
+            </div>
+            <div class="card-box__content card-body">
+                <h4 class="card-subtitle">UNIVERSAL ROOMS</h4>
+                <h2 class="card-title">Spontaneous Conversations</h2>
+                <p class="card-text">Time zones got you working late? See who is also in work mode and get quick feedback on your work.</p>
+            </div>
+        </div>
+
+        <div class="card-box card border-0">
+            <div class="card-box__image card-img-top rounded-4">
+                <img src="assets/illustration-3.svg" alt="illustration-3">
+            </div>
+            <div class="card-box__content card-body">
+                <h4 class="card-subtitle">ASSISTANCING</h4>
+                <h2 class="card-title">Co-working with Multi-Plattform</h2>
+                <p class="card-text">Hang out in a minimal voice/video call to feel connected — like you're working at the same table.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial section -->
+    <section class="testimonal-section container-sm d-flex justify-content-center position-relative top-0 start-0">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            
+            <div class="testimonal-section__slider-container carousel-inner">
+                <!-- quote 1 -->
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center align-items-center w-100 h-100 m-auto">
+                        <div class="slider-main-content d-flex justify-content-between align-items-start w-75 mt-4">
+                            <div class="image-box me-5">
+                                <img src="assets/image-1.png" class="mb-lg-0 shadow-2" alt="woman avatar" width="261">
+                            </div>
+                            <div class="quote-box ms-5 mt-5">
+                                <figure>
+                                    <figcaption class="m-0 p-0 mb-4">
+                                        Mathijn Agter <span class="fw-light">-  Project Manager</span>
+                                    </figcaption>
+                                    <blockquote class="blockquote mt-5">
+                                        <p>“EhyaWare is fast. Files are always up to date. It’s easy to share designs across the organization, so collaboration is easy.”</p>
+                                    </blockquote>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- quote 2 -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center align-items-center w-100 h-100 m-auto">
+                        <div class="slider-main-content d-flex justify-content-between align-items-start w-75 mt-4">
+                            <div class="image-box me-5">
+                                <img src="assets/image-1.png" class="mb-lg-0 shadow-2" alt="woman avatar" width="261">
+                            </div>
+                            <div class="quote-box ms-5 mt-5">
+                                <figure>
+                                    <figcaption class="m-0 p-0 mb-4">
+                                        Mathijn Agter <span class="fw-light">-  Project Manager</span>
+                                    </figcaption>
+                                    <blockquote class="blockquote mt-5">
+                                        <p>“EhyaWare is fast. Files are always up to date. It’s easy to share designs across the organization, so collaboration is easy.”</p>
+                                    </blockquote>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- quote 3 -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center align-items-center w-100 h-100 m-auto">
+                        <div class="slider-main-content d-flex justify-content-between align-items-start w-75 mt-4">
+                            <div class="image-box me-5">
+                                <img src="assets/image-1.png" class="mb-lg-0 shadow-2" alt="woman avatar" width="261">
+                            </div>
+                            <div class="quote-box ms-5 mt-5">
+                                <figure>
+                                    <figcaption class="m-0 p-0 mb-4">
+                                        Mathijn Agter <span class="fw-light">-  Project Manager</span>
+                                    </figcaption>
+                                    <blockquote class="blockquote mt-5">
+                                        <p>“EhyaWare is fast. Files are always up to date. It’s easy to share designs across the organization, so collaboration is easy.”</p>
+                                    </blockquote>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- quote 4 -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center align-items-center w-100 h-100 m-auto">
+                        <div class="slider-main-content d-flex justify-content-between align-items-start w-75 mt-4">
+                            <div class="image-box me-5">
+                                <img src="assets/image-1.png" class="mb-lg-0 shadow-2" alt="woman avatar" width="261">
+                            </div>
+                            <div class="quote-box ms-5 mt-5">
+                                <figure>
+                                    <figcaption class="m-0 p-0 mb-4">
+                                        Mathijn Agter <span class="fw-light">-  Project Manager</span>
+                                    </figcaption>
+                                    <blockquote class="blockquote mt-5">
+                                        <p>“EhyaWare is fast. Files are always up to date. It’s easy to share designs across the organization, so collaboration is easy.”</p>
+                                    </blockquote>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- quote 5 -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center align-items-center w-100 h-100 m-auto">
+                        <div class="slider-main-content d-flex justify-content-between align-items-start w-75 mt-4">
+                            <div class="image-box me-5">
+                                <img src="assets/image-1.png" class="mb-lg-0 shadow-2" alt="woman avatar" width="261">
+                            </div>
+                            <div class="quote-box ms-5 mt-5">
+                                <figure>
+                                    <figcaption class="m-0 p-0 mb-4">
+                                        Mathijn Agter <span class="fw-light">-  Project Manager</span>
+                                    </figcaption>
+                                    <blockquote class="blockquote mt-5">
+                                        <p>“EhyaWare is fast. Files are always up to date. It’s easy to share designs across the organization, so collaboration is easy.”</p>
+                                    </blockquote>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonal-section__slider-indicators carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+
+            <div class="testimonal-section__slider-buttons d-flex justify-content-between">
+                <button class="carousel-control-prev shadow-lg" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span aria-hidden="true"> 
+                    <img src="assets/icon-chevron-right.svg" alt="icon left">
+                  </span>
+                </button>
+                <button class="carousel-control-next shadow-lg" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span aria-hidden="true">
+                    <img src="assets/icon-chevron-right.svg" alt="icon right">
+                  </span>
+                </button>
+            </div>
+        </div>                    
+    </section>
+
+    <!-- Integrated section -->
+    <section class="integrated-section container container-sm">
+        <div class="integrated-section__container d-flex justify-content-center align-items-center w-100 h-100 top-0 start-0">
+            <div class="content">
+                <h6 class="sub-title mb-4">INTEGRATION</h6>
+                <h2 class="title mb-4">Integrations with
+                    40+ Most using software</h2>
+                <a href="#" class="text-decoration-none">Browse all Software 
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14.002" height="13.647" viewBox="0 0 14.002 13.647">
+                        <path id="arrow-right" d="M7.706,13.427l6.075-6.075a.747.747,0,0,0,0-1.059L7.706.22a.747.747,0,0,0-1.059,0L5.953.914a.745.745,0,0,0,.013,1.072L9.731,5.573H.75a.748.748,0,0,0-.75.75v1a.748.748,0,0,0,.75.75H9.731L5.966,11.661a.751.751,0,0,0-.013,1.072l.694.694A.747.747,0,0,0,7.706,13.427Z" fill="#1565d8"/>
+                    </svg>
+                </span>
+                </a>
+            </div>
+        </div>
+        <div class="integrated-section__items">
+            <div class="items-content position-relative h-100 w-100 start-0 top-0">
+                <!-- left logos -->
+                <div class="logo-item item-l-1 position-absolute shadow-lg">
+                    <img src="assets/logo-shopify.svg" alt="logo-shopify">
+                </div>
+                <div class="logo-item item-l-2 position-absolute shadow-lg">
+                    <img src="assets/logo-trello.svg" alt="logo-trello">
+                </div>
+                <div class="logo-item item-l-3 position-absolute shadow-lg">
+                    <img src="assets/logo-analytics.svg" alt="logo-analytics">
+                </div>
+                <div class="logo-item item-l-4 position-absolute shadow-lg">
+                    <img src="assets/logo-slack-small.svg" alt="logo-slack-small">
+                </div>
+                <div class="logo-item item-l-5 position-absolute shadow-lg">
+                    <img src="assets/logo-digialoceaon.svg" alt="logo-digialoceaon">
+                </div>
+        
+                <!-- right logos -->
+                <div class="logo-item item-r-1 position-absolute shadow-lg">
+                    <img src="assets/logo-dropbox.svg" alt="logo-dropbox">
+                </div>
+                <div class="logo-item item-r-2 position-absolute shadow-lg">
+                    <img src="assets/logo-asana.svg" alt="logo-asana">
+                </div>
+                <div class="logo-item item-r-3 position-absolute shadow-lg">
+                    <img src="assets/logo-slack-small.svg" alt="logo-slack-small">
+                </div>
+                <div class="logo-item item-r-4 position-absolute shadow-lg">
+                    <img src="assets/logo-github.svg" alt="logo-github">
+                </div>
+                <div class="logo-item item-r-5 position-absolute shadow-lg">
+                    <img src="assets/logo-drive.svg" alt="logo-drive">
+                </div>
+                <div class="logo-item item-r-6 position-absolute shadow-lg">
+                    <img src="assets/logo-notion.svg" alt="logo-notion">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- pricing section -->
+    <section class="pricing-section w-100 bg-light">
+        <div class="pricing-section__container d-flex flex-column justify-content-center align-items-center mb-3">
+            <div class="pricing-section__container-content mb-5 text-center">
+                <div class="content-box mt-5 mb-5">
+                    <h6 class="sub-title mb-4">PRICING PLAN</h6>
+                    <h2 class="title mb-4">Find a Plan that works for you</h2>
+                    <div class="text">
+                        <p>Get the EhyaWare plan that fits your team at a special introductory price.</p>
+                        <p>It’s the all-in-one online training system they’ll love.</p>
+                    </div>
+                </div>
+                <div class="toggle-button mt-5">
+                    <div class="toggle-button__content form-check form-switch d-flex justify-content-center align-items-center">
+                        <p class="left-text">Annual Plan</p>
+                        <div class="button">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                        </div>
+                        <p class="right-text">Monthly Plan</p>
+                      </div>                      
+                </div>
+            </div>
+
+            <div class="pricing-section__container-card-list">
+                <div class="card-content d-flex flex-row justify-content-between align-items-center mb-3 pe-5 ps-5  bg-body rounded">
+                    <div class="card-content_column">
+                        <h3 class="title">Starter</h3>
+                        <p class="text">for up to 2 editors and 3 projects</p>
+                    </div>
+                    <div class="card-content_column">
+                        <h3 class="title">Free</h3>
+                        <a href="#" class="link">Want more features?</a>
+                    </div>
+                    <div class="card-content_column">
+                        <button type="button" class="btn btn-primary rounded-4">Choose Plan</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pricing-section__container-card-list">
+                <div class="card-content d-flex flex-row justify-content-between align-items-center mb-3 pe-5 ps-5  bg-body rounded">
+                    <div class="card-content_column">
+                        <h3 class="title">Professional</h3>
+                        <p class="text">for up to 5 editors and 10 projects</p>
+                    </div>
+                    <div class="card-content_column">
+                        <h3 class="title">$60</h3>
+                        <p class="text">or $10 month-to-month</p>
+                    </div>
+                    <div class="card-content_column">
+                        <button type="button" class="btn btn-primary rounded-4">Choose Plan</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pricing-section__container-card-list">
+                <div class="card-content d-flex flex-row justify-content-between align-items-center mb-3 pe-5 ps-5  bg-body rounded">
+                    <div class="card-content_column">
+                        <h3 class="title">Organization</h3>
+                        <p class="text">for up to 10 editors and 20+ projects</p>
+                    </div>
+                    <div class="card-content_column">
+                        <h3 class="title">$100</h3>
+                        <p class="text">or $15 month-to-month</p>
+                    </div>
+                    <div class="card-content_column">
+                        <button type="button" class="btn btn-primary rounded-4">Choose Plan</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pricing-section__container-card-list">
+                <div class="card-content d-flex flex-row justify-content-between align-items-center mb-3 shadow-lg pe-5 ps-5  bg-body rounded">
+                    <div class="card-content_column">
+                        <h3 class="title">Enterprise</h3>
+                        <p class="text">for 1000+ People com</p>
+                    </div>
+                    <div class="card-content_column">
+                        <button type="button" class="btn btn-primary rounded-4">Choose Plan</button>
+                    </div>
+                </div>
+            </div>         
+        </div>
+    </section>
+
+
+    <!-- Benefit section -->
+    <section class="benefit-section container-sm">
+        <div class="benefit-section__container d-flex flex-column justify-content-center align-items-center mb-3">
+            <div class="benefit-content mb-5 text-center">
+                <h6 class="sub-title mb-4">DOWNLOAD</h6>
+                <h2 class="title mb-4">Get started with EhyaWare today</h2>
+                <p class="text">New normal working without doubt about how far you distancing</p>
+            </div>
+
+            <div class="Card-content card-group w-100">
+                <div class="card d-flex flex-column justify-content-center align-items-center card-active">
+                    <div>
+                        <img src="assets/logo-apple.svg" class="card-img-top" alt="logo apple">
+                        <div class="card-body">
+                          <h5 class="title">for MacOs</h5>
+                          <p class="text">For MacOs High Sierra and upper</p>
+                        </div>
+                        <button type="button" class="card-button btn btn-light"><span>Download</span> For Mac</button>
+                    </div>
+                </div>
+
+                <div class="card d-flex flex-column justify-content-center align-items-center">
+                    <div>
+                        <img src="assets/logo-windows.svg" class="card-img-top" alt="logo Windoss">
+                        <div class="card-body">
+                          <h5 class="title">for Windows</h5>
+                          <p class="text">For Windoss 10 Home and other</p>
+                        </div>
+                        <button type="button" class="card-button"><span>Download</span> For Windows</button>
+                    </div>
+                </div>
+
+                <div class="card d-flex flex-column justify-content-center align-items-center">
+                    <div>
+                        <img src="assets/logo-linux.svg" class="card-img-top" alt="logo Linux">
+                        <div class="card-body">
+                          <h5 class="title">for Linux</h5>
+                          <p class="text">For Linux Fedora and upper</p>
+                        </div>
+                        <button type="button" class="card-button btn"><span>Download</span> For Linux</button>
+                    </div>
+                </div>
+            </div>              
+        </div>
+    </section>
+
+
+    <!-- Newsletter section -->
+    <section class="newsletter-section container-sm">
+        <div class="w-100 h-100 d-flex flex-row justify-content-between
+        align-items-center">
+            <div class="newsletter-content mt-4">
+                <h2>Subscribe to our newsletter</h2>
+                <p>A monthly digest of the latest Sketch news, articles, and resources.</p>
+            </div>
+            <form class="newsletter-form d-flex">
+                <input type="email" class="form-control bg-white ps-4 shadow-sm focus:outline-none hover:cursor-pointer" placeholder="Your Email here..">
+                <span class="input-group-btn w-0 shadow-lg">
+                    <button class="btn h-10 rounded-1 bg-black absolute text-white" type="submit">Subscribe us</button>
+                </span>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer container-sm d-flex flex-column justify-content-center
+        align-items-center top-7rem">
+        <div class="footer-main d-flex justify-content-between h-100">
+            <div class="left-content me-5">
+                <img class="logo mb-4" src="assets/logo.svg" alt="">
+                <p class="text mb-5">Build a modern and creative website with crealand</p>
+                <ul class="social-list list-group list-group-horizontal">
+                    <a href="#" class="social-list-item list-group-item">
+                        <img src="assets/logo-google-small.svg" alt="logo google">
+                    </a>
+                    <a href="#" class="social-list-item list-group-item">
+                        <img src="assets/logo-twitter.svg" alt="logo twitter">
+                    </a>
+                    <a href="#" class="social-list-item list-group-item">
+                        <img src="assets/logo-instagram.svg" alt="logo instagram">
+                    </a>
+                    <a href="#" class="social-list-item list-group-item">
+                        <img src="assets/logo-linkedin.svg" alt="logo linkedin">
+                    </a>
+                </ul> 
+            </div>
+            <div class="right-content d-flex justify-content-between ms-5">
+                <div class="column flex-fill me-5">
+                    <h3 class="column-title">Product</h3>
+                    <ul class="column-list list-group">
+                        <li class="list-group-item">
+                            <a href="#">Landingpage</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">Features</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">Documentation</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">Referral Program</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column flex-fill me-5">
+                    <h3 class="column-title">Services</h3>
+                    <ul class="column-list list-group">
+                        <li class="list-group-item">
+                            <a href="#">Documentation</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">Design</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">Themes</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">Illustrations</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">UI Kit</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column flex-fill me-5">
+                    <h3 class="column-title">Company</h3>
+                    <ul class="column-list list-group">
+                        <li class="list-group-item">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">Terms</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">Careers</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column flex-fill me-5">
+                    <h3 class="column-title">More</h3>
+                    <ul class="column-list list-group">
+                        <li class="list-group-item">
+                            <a href="#">Documentation</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">License</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">Changelog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright d-flex flex-column align-items-center">
+            <div class="shadow-lg">
+                <img src="assets/icon-heart.svg" alt="icon heart">
+            </div>
+            <p>Copyright <span>&copy;</span> 2019. Crafted with love.</p>
+        </div>
+    </footer>
+    
+    <!-- bootsTrap 5 JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+</body>
+</html>
