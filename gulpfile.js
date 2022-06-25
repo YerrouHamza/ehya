@@ -18,27 +18,27 @@ const { parallel } = require('gulp');
 function miniFy_Html() { // function html
     return gulp.src('src/*.html')
     .pipe(htmlmin({ collapseWhitespace: true }))
-    .pipe(gulp.dest('build'))
+    .pipe(gulp.dest('dist'))
     .pipe(livereload());
 }
 
 function miniFy_Syle() { // function style
     return gulp.src('src/style/*.css')
     .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(gulp.dest('build/style'))
+    .pipe(gulp.dest('dist/style'))
     .pipe(livereload());
 }
 
 function miniFy_Images() { // function for images
     return gulp.src('src/assets/*.{jpg,png,svg}')
     // .pipe(imagemin())
-    .pipe(gulp.dest('build/assets'))
+    .pipe(gulp.dest('dist/assets'))
     .pipe(livereload());
 }
 
 function miniFy_Font() { // function for fonts
     return gulp.src('src/assets/font/*.otf')
-    .pipe(gulp.dest('build/assets/font'))
+    .pipe(gulp.dest('dist/assets/font'))
     .pipe(livereload());
 }
 
