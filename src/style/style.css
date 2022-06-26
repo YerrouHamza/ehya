@@ -109,7 +109,12 @@ header .main-navbar__nav-mobile .navbar-content-button {
     margin-top: 1rem;
     width: 100%;
 }
+
+
 /* styling for header container */
+.Header-section__container {
+    margin-top: 7rem !important;
+}
     /* content */
 .Header-section__container .title {
     font-family: hkgrotesk-Bold;

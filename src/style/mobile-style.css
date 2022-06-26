@@ -8,6 +8,7 @@ header .main-navbar__nav-mobile .navbar-logo {
 
 /* styling for header container */
 .Header-section__container {
+    margin-top: 5rem !important;
     flex-direction: column;
 }
 .Header-section__container .content-box {
@@ -42,7 +43,7 @@ header .main-navbar__nav-mobile .navbar-logo {
 .Header-section__brands .image-box {
     width: 40%;
     margin: auto;
-    padding: 2rem 1rem;
+    padding: 2.5rem 1rem;
 }
 
 
@@ -140,15 +141,13 @@ header .main-navbar__nav-mobile .navbar-logo {
     font-size: 14px;
 }
 
-
-
 /**/
 
 /* styling for testimonal section */
 .testimonal-section {
-    height: 804px;
+    height: 802px;
     overflow: hidden !important;
-    padding-top: 5rem !important;
+    padding-top: 8rem !important;
 }
 .testimonal-section .carousel {
     background-color: #183B56 !important;
@@ -201,7 +200,7 @@ header .main-navbar__nav-mobile .navbar-logo {
 .testimonal-section__slider-buttons {
     position: unset !important;
     margin: auto;
-    margin-top: 6rem;
+    margin-top: 4rem;
 }
 .testimonal-section__slider-buttons button {
     width: 49px;
@@ -565,8 +564,9 @@ header .main-navbar__nav-mobile .navbar-logo {
 
 .footer .footer-main .right-content .column {
     margin-left: 0rem !important;
-    margin-right: 1rem !important;
+    margin-right: 0rem !important;
     margin-bottom: 4rem !important;
+    width: 50%;
 }
 
 .footer .footer-main .right-content .column-list li {
